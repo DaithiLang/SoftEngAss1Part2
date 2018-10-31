@@ -56,5 +56,7 @@ public class PartB {
         courses[2].setsDate(new LocalDate(2017,9,1));
         courses[2].seteDate(new LocalDate(2021,5,10));
         courses[2].addModules(diffModules[2]);
+        
+        System.out.println(courses[0]);
    }
 }
